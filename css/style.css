@@ -1,0 +1,33 @@
+#AboutMe{
+    color:#EA738DFF;
+    text-align: center;
+
+}
+
+#name{
+    color:#0063B2FF;
+    text-align: center;
+
+}
+
+#header{
+    color: #0063B2FF;
+    text-align: center;
+
+}
+
+p{
+    color:#0063B2FF;
+    background-color:rgba(236, 165, 181,0.5) ;
+    text-align: center;
+
+}
+
+
+#eyes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
