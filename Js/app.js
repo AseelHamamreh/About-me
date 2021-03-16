@@ -35,6 +35,15 @@ else if (Ans4 === 'no' ||	Ans4 === 'n'){
 }
 console.log('Do you thing I am a student? your answer was: ' + Ans4);
 
+let Q6 = prompt('Do you think I like Sport?');
+let Ans6 = Q6.toLowerCase();
+if (Ans6 === 'yes' ||	Ans6 === 'y'){
+  alert('You are right!');
+}
+else if (Ans6 === 'no' ||	Ans6 === 'n'){
+  alert('You are wrong! I like Sport very much!');
+}
+console.log('Do you think I like Sport? your answer was: '+ Ans6);
 
 let Q5 = prompt('Are you interested to know me more?');
 let Ans5 = Q5.toLowerCase();
@@ -45,6 +54,7 @@ else if (Ans5 === 'no' ||	Ans5 === 'n'){
   alert('Yes you are!');
 }
 console.log('Are you interested to know me more? your answer was: '+ Ans5);
+
 
 alert('Thank you '+ Q1 + ' for answering!!');
 
