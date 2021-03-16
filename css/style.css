@@ -13,15 +13,28 @@
 #header{
     color: #0063B2FF;
     text-align: center;
+    border-width: thick;
 
 }
-
-p{
-    color:#0063B2FF;
-    background-color:rgba(236, 165, 181,0.5) ;
+ul{
     text-align: center;
 
 }
+.list1{
+    color:#0063B2FF;
+    background-color:rgba(236, 165, 181,0.5) ;
+    text-align: center;
+}
+#HHH{
+color: blue;
+}
+
+
+
+ol{
+    color: blue;
+}
+
 
 
 #eyes {
@@ -31,3 +44,4 @@ p{
     width: 50%;
 
 }
+
