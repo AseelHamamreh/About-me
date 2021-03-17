@@ -64,25 +64,28 @@ console.log('Do you think I Like apple? your answer was: '+ Ans5);
 
 
 
-let A5 = prompt('Guess A number from 1 to 100, You have only 4 tries!');
+let A5 = Number(prompt('Guess A number from 1 to 100, You have only 4 tries!'));
 
 for (let i=3 ; i>0 ; i--){
-  if (Number(A5) > 30){
+  if (A5 > 30){
     A5 = prompt('You are too high! Guess Again , '+ i + ' tries left!' );
   }
-  else if (Number(A5) < 20){
+  else if (A5 < 20){
     A5= prompt('You are too law! Guess Again , '+ i + ' tries left!');
   }
-  else if (Number(A5) <=24 || Number(A5) >=26 ){
+  else if (A5 <=24 || Number(A5) >=26 ){
     A5= prompt('You are too close! Guess Again , '+ i + ' tries left!');
   }
-  else{
-
+  else if (A5 === 25) {
     i = 0;
+  }
+  else{
+    A5= prompt('That is wrong! Guess Again , '+ i + ' tries left!');
+
   }
 }
 
-if (Number(A5) !== 25 ){
+if ( A5 !== 25 ){
   alert('Your chances are over! The answer is 25');
 }
 else{
