@@ -4,7 +4,6 @@ let Q1 = ('');
 function qs0(){
   let Q1 = prompt('What is your name?');
   alert ('Hello '+Q1 + '! Welcome to my WebSite' );
-  console.log('your name is: ' + Q1);
 }
 qs0();
 
@@ -18,7 +17,6 @@ function qs1(){
     alert('You are right! I am not.');
     score = score +1 ;
   }
-  console.log('Do You think I am vegeterian? your answer was: ' + Ans2);
 }
 qs1();
 
@@ -33,7 +31,6 @@ function qs2(){
   else if (Ans3 === 'no' ||	Ans3 === 'n'){
     alert('You are wrong! I like Movies very much!');
   }
-  console.log('Do you think I like Movies? your answer was: ' + Ans3);
 }
 qs2();
 
@@ -47,7 +44,6 @@ function qs3(){
   else if (Ans4 === 'no' ||	Ans4 === 'n'){
     alert('You are wrong! I am a student at LTUC!');
   }
-  console.log('Do you thing I am a student? your answer was: ' + Ans4);
 }
 qs3();
 
@@ -61,7 +57,6 @@ function qs4(){
   else if (Ans6 === 'no' ||	Ans6 === 'n'){
     alert('You are wrong! I like Sport very much!');
   }
-  console.log('Do you think I like Sport? your answer was: '+ Ans6);
 }
 qs4();
 
@@ -76,10 +71,8 @@ function qs5(){
   else if (Ans5 === 'no' ||	Ans5 === 'n'){
     alert('that is incorrect!');
   }
-  console.log('Do you think I Like apple? your answer was: '+ Ans5);
 }
 qs5();
-let A5 = Number(prompt('Guess A number from 1 to 100, You have only 4 tries!'));
 function qs6(){
   let A5 = Number(prompt('Guess A number from 1 to 100, You have only 4 tries!'));
 
@@ -101,17 +94,17 @@ function qs6(){
 
     }
   }
-}
 
-if ( A5 !== 25 ){
-  alert('Your chances are over! The answer is 25');
-}
-else{
-  alert('You are right! its 25');
-  score = score +1 ;
 
+  if ( Number(A5) !== 25 ){
+    alert('Your chances are over! The answer is 25');
+  }
+  else{
+    alert('You are right! its 25');
+    score = score +1 ;
+
+  }
 }
-console.log('Guess A number from 1 to 100, your last answer was:  '+ A5);
 qs6();
 
 
@@ -137,9 +130,7 @@ function qs7(){
   }
 
 
-  console.log('Guess one of my favorite three numbers, your last answer was:  '+ S1);
 }
 qs7();
 
-console.log('your score is = ' + score);
 alert('Thank you '+ Q1 + ' for answering!! your score is ' + score +' /7 ! HAVE A GOOD DAY');
